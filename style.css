@@ -1,0 +1,40 @@
+.navbar-dark .navbar-nav .nav-link{
+
+    color: white;
+    font-weight: 500;
+}
+.singel-about {
+    display: block;
+    overflow: hidden;
+    border-right:1px solid rgb(204,204,204) !important;
+    text-align: center;
+    padding: 30px;
+}
+.singel-about img{
+    width: 100%;
+}
+@media screen and (max-width: 480px) {
+    .singel-about {
+border: none;   
+border-left: none; }
+  }
+
+
+  @media screen and (min-width: 480px) {
+    .dropdown-item   {
+background-color: #7f1aa6 !important;
+color: white;
+
+    }
+  }
+
+  
+  @media screen and (min-width: 480px) {
+    .navbar-nav .dropdown-menu   {
+background-color: #7f1aa6 !important;
+
+    }
+  }
+  .captain{
+      margin-top: 20px;
+  }
